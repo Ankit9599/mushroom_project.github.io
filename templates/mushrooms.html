@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action='/predict' method="POST">
+  <table>
+   <tr>
+    <td>cap-shape :</td>
+    <td>
+     <input type="text" name="cap-shape" list="cap-shape">
+     <datalist id="cap-shape">
+      <option value="bell"></option>
+      <option value="conical"></option>
+      <option value="convex"></option>
+      <option value="flat"></option>
+      <option value="knobbed"></option>
+      <option value="sunken"></option>
+     </datalist>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>cap-surface :</td>
+    <td>
+     <input type="text" name="cap-surface" list="cap-surface">
+     <datalist id="cap-surface">
+      <option value="fibrous"></option>
+      <option value="grooves"></option>
+      <option value="scaly"></option>
+      <option value="smooth"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>cap-color :</td>
+    <td>
+     <input type="text" name="cap-color" list="cap-color">
+     <datalist id="cap-color">
+      <option value="brown"></option>
+      <option value="buff"></option>
+      <option value="cinnamon"></option>
+      <option value="gray"></option>
+      <option value="green"></option>
+      <option value="pink"></option>
+	  <option value="purple"></option>
+	  <option value="red"></option>
+	  <option value="white"></option>
+	  <option value="yellow"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>bruises :</td>
+    <td>
+     <input type="text" name="bruises" list="bruises">
+     <datalist id="bruises">
+      <option value="bruises"></option>
+      <option value="no"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>odor :</td>
+    <td>
+     <input type="text" name="odor" list="odor">
+     <datalist id="odor">
+	  <option value="none"></option>
+      <option value="almond"></option>
+      <option value="anise"></option>
+      <option value="creosote"></option>
+      <option value="fishy"></option>
+      <option value="foul"></option>
+      <option value="musty"></option>
+	<option value="pungent"></option>
+	<option value="spicy"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>gill-attachment :</td>
+    <td>
+     <input type="text" name="gill-attachment" list="gill-attachment">
+     <datalist id="gill-attachment">
+      <option value="attached"></option>
+      <option value="descending"></option>
+      <option value="free"></option>
+      <option value="notched"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>gill-spacing :</td>
+    <td>
+     <input type="text" name="gill-spacing" list="gill-spacing">
+     <datalist id="gill-spacing">
+      <option value="close"></option>
+      <option value="crowded"></option>
+      <option value="distant"></option>
+      </input>
+    </td>
+   </tr>
+   <tr>
+    <td>gill-size :</td>
+    <td>
+     <input type="text" name="gill-size" list="gill-size">
+     <datalist id="gill-size">
+      <option value="broad"></option>
+      <option value="narrow"></option>
+      </input>
+    </td>
+   </tr>
+   <tr>
+    <td>gill-color :</td>
+    <td>
+     <input type="text" name="gill-color" list="gill-color">
+     <datalist id="gill-color">
+      <option value="black"></option>
+      <option value="brown"></option>
+      <option value="buff"></option>
+      <option value="chocolate"></option>
+      <option value="gray"></option>
+      <option value="green"></option>
+	  <option value="orange"></option>
+	  <option value="pink"></option>
+	  <option value="purple"></option>
+	  <option value="red"></option>
+	  <option value="white"></option>
+	  <option value="yellow"></option>
+     </input>
+    </td>
+   </tr>	
+   <tr>
+    <td>stalk-shape :</td>
+    <td>
+     <input type="text" name="stalk-shape" list="stalk-shape">
+     <datalist id="stalk-shape">
+      <option value="enlarging"></option>
+      <option value="tapering"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>stalk-root :</td>
+    <td>
+     <input type="text" name="stalk-root" list="stalk-root">
+     <datalist id="stalk-root">
+      <option value="bulbous"></option>
+	  <option value="club"></option>
+	  <option value="cup"></option>
+	  <option value="equal"></option>
+	  <option value="rhizomorphs"></option>
+	  <option value="rooted"></option>
+	  <option value="missing"></option>
+      </input>
+    </td>
+   </tr>
+   <tr>
+    <td>stalk-surface-above-ring :</td>
+    <td>
+     <input type="text" name="stalk-surface-above-ring" list="stalk-surface-above-ring">
+     <datalist id="stalk-surface-above-ring">
+      <option value="fibrous"></option>
+	  <option value="scaly"></option>
+	  <option value="silky"></option>
+	  <option value="smooth"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>stalk-surface-below-ring :</td>
+    <td>
+     <input type="text" name="stalk-surface-below-ring" list="stalk-surface-below-ring">
+     <datalist id="stalk-surface-below-ring">
+      <option value="fibrous"></option>
+	  <option value="scaly"></option>
+	  <option value="silky"></option>
+	  <option value="smooth"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>stalk-color-above-ring :</td>
+    <td>
+     <input type="text" name="stalk-color-above-ring" list="stalk-color-above-ring">
+     <datalist id="stalk-color-above-ring">
+      <option value="brown"></option>
+	  <option value="buff"></option>
+	  <option value="cinnamon"></option>
+	  <option value="gray"></option>
+	  <option value="orange"></option>
+	  <option value="pink"></option>
+	  <option value="red"></option>
+	  <option value="white"></option>
+	  <option value="yellow"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>stalk-color-below-ring :</td>
+    <td>
+     <input type="text" name="stalk-color-below-ring" list="stalk-color-below-ring">
+     <datalist id="stalk-color-below-ring">
+	  <option value="brown"></option>
+	  <option value="buff"></option>
+	  <option value="cinnamon"></option>
+	  <option value="gray"></option>
+	  <option value="orange"></option>
+	  <option value="pink"></option>
+	  <option value="red"></option>
+	  <option value="white"></option>
+	  <option value="yellow"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>veil-color :</td>
+    <td>
+     <input type="text" name="veil-color" list="veil-color">
+     <datalist id="veil-color">
+      <option value="brown"></option>
+      <option value="orange"></option>
+	  <option value="white"></option>
+	  <option value="yellow"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>ring-number :</td>
+    <td>
+     <input type="text" name="ring-number" list="ring-number">
+     <datalist id="ring-number">
+      <option value="none"></option>
+      <option value="one"></option>
+	  <option value="two"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>ring-type :</td>
+    <td>
+     <input type="text" name="ring-type" list="ring-type">
+     <datalist id="ring-type">
+	  <option value="none"></option>
+      <option value="cobwebby"></option>
+	  <option value="evanescent"></option>
+	  <option value="flaring"></option>
+	  <option value="large"></option>
+	  <option value="pendant"></option>
+	  <option value="sheathing"></option>
+	  <option value="zone"></option>
+      </input>
+    </td>
+   </tr>
+   <tr>
+    <td>spore-print-color :</td>
+    <td>
+     <input type="text" name="spore-print-color" list="spore-print-color">
+     <datalist id="spore-print-color">
+      <option value="black"></option>
+      <option value="brown"></option>
+	  <option value="buff"></option>
+	  <option value="chocolate"></option>
+	  <option value="green"></option>
+	  <option value="orange"></option>
+	  <option value="purple"></option>
+	  <option value="white"></option>
+	  <option value="yellow"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>population :</td>
+    <td>
+     <input type="text" name="population" list="population">
+     <datalist id="population">
+      <option value="abundant"></option>
+      <option value="clustered"></option>
+	  <option value="numerous"></option>
+	  <option value="scattered"></option>
+	  <option value="several"></option>
+	  <option value="solitary"></option>
+     </input>
+    </td>
+   </tr>
+   <tr>
+    <td>habitat :</td>
+    <td>
+     <input type="text" name="habitat" list="habitat">
+     <datalist id="habitat">
+      <option value="grasses"></option>
+      <option value="leaves"></option>
+	  <option value="meadows"></option>
+	  <option value="paths"></option>
+	  <option value="urban"></option>
+	  <option value="waste"></option>
+	  <option value="woods"></option>
+     </input>
+    </td>
+   </tr>
+  </table>
+      <button type="submit">Predict</button>
+ </form>
+      <h1 align="center"<b>{{pred}}</b></h1>
+</body>
+</html>
